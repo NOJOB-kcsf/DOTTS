@@ -1,0 +1,46 @@
+package kcs.graduation.discord.system.embed;
+
+public class Constant {
+    public static final int COMPLETION = 1;
+    public static final int UNFINISHED = 2;
+    public static final int UNKNOWN = -1;
+    public static final int NOT_ADMIN = 1001;
+    public static final int STATIC_SETTING_COMPLETE = 10001;
+    public static final int STATIC_SETTING_CANCEL = 10002;
+    public static final int STATIC_SETTING_NO_PERMISSION_NO_MANAGE_CANCEL = 10003;
+    public static final int EVENT_CATEGORY_SET_COMPLETE = 10004;
+    public static final int EVENT_DATA_SET_COMPLETE = 10005;
+    public static final int EVENT_DATA_SET_CANCEL_NOT_DATE_FORMAT = 10006;
+    public static final int EVENT_SET_DATE_EXCESS_ERROR = 10007;
+    public static final int EVENT_DATA_NOT_CATEGORY_ERROR = 10008;
+    public static final int EVENT_DATA_COVERING_NAME_ERROR = 10009;
+    public static final int EVENT_DATA_DELAY_OVER_END_TIME_ERROR = 10010;
+    public static final int EVENT_ONE_HOUR_AGO = 10011;
+    public static final int SETTING_SET_MENTION_CHANNEL = 10012;
+    public static final int SETTING_SET_FIRST_CHANNEL = 10013;
+    public static final int SETTING_SET_EVENT_CATEGORY = 10014;
+    public static final int SETTING_SET_CREATED_UNDER_CATEGORY = 10015;
+    public static final int SETTING_SET_TEMP_VOICE_CATEGORY = 10016;
+    public static final int SETTING_SET_TEMP_TEXT_CATEGORY = 10017;
+    public static final int SETTING_SET_TEMP_BY = 10018;
+    public static final int SETTING_SET_TEMP_TEXT_BY = 10019;
+    public static final int SETTING_SET_NEW_CATEGORY_BY = 10020;
+    public static final int SETTING_SET_DEFAULT_SIZE = 10021;
+    public static final int SETTING_SET_DEFAULT_NAME = 10022;
+    public static final int SETTING_SET_STEREO_TYPED = 10023;
+    public static final int TEMP_USER_IS_NO_OWNER = 10024;
+    public static final int TEMP_IS_HIDE = 10025;
+    public static final int TEMP_IS_NOT_HIDE = 10026;
+    public static final int TEMP_IS_LOCK = 10027;
+    public static final int TEMP_IS_NOT_LOCK = 10028;
+    public static final int NAME_PRESET_SIZE_OVER = 10029;
+    public static final int NAME_PRESET_SET = 10030;
+    public static final int NAME_PRESET_NO_ELEMENT = 10031;
+    public static final int MENTION_MESSAGE_DELETE = 10032;
+    public static final int TEMP_ALREADY_OWNER = 10033;
+    public static final int TEMP_USER_IS_OWNER = 10034;
+    public static final int TEMP_CHANGE_OWNER = 10035;
+    public static final int TEMP_SIZE_SET = 10036;
+    public static final int TEMP_CHANGE_NAME = 10038;
+    public static final int EVENT_DATA_NO_ELEMENT = 10037;
+}
